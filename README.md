@@ -1,16 +1,16 @@
-# 🧠 Causal Analysis of Osteoporosis Dataset  
+# Causal Analysis of Osteoporosis Dataset  
 Exploring causal relationships between medical and lifestyle factors affecting osteoporosis using data-driven inference techniques.  
 
 ---
 
-## 🎯 Overview  
+## Overview  
 Osteoporosis is a chronic condition characterized by reduced bone density and an increased risk of fractures.  
 This project applies **causal inference** methods to investigate potential cause-and-effect relationships between clinical and lifestyle variables that may contribute to the onset of osteoporosis.  
 The analysis goes beyond correlation to identify possible causal pathways that could inform prevention and early intervention.  
 
 ---
 
-## 🧩 Objectives  
+## Objectives  
 - Understand how causal inference differs from traditional correlation analysis.  
 - Identify variables that have a direct or indirect effect on osteoporosis risk.  
 - Apply causal discovery and estimation techniques to real-world medical data.  
@@ -18,7 +18,7 @@ The analysis goes beyond correlation to identify possible causal pathways that c
 
 ---
 
-## ⚙️ Methods & Techniques  
+## Methods & Techniques  
 - **Approach:** Exploratory data analysis → Confounder detection → Causal graph construction → Effect estimation  
 - **Libraries Used:** Pandas, NumPy, Matplotlib, Seaborn, DoWhy, CausalInference, StatsModels  
 - **Statistical Methods:**  
@@ -30,13 +30,13 @@ The analysis goes beyond correlation to identify possible causal pathways that c
 
 ---
 
-## 📊 Dataset  
+## Dataset  
 The dataset includes demographic, clinical, and lifestyle attributes related to osteoporosis risk factors.  
 Preprocessing included missing-value handling, outlier detection, normalization, and categorical encoding.  
 
 ---
 
-## 📈 Results & Insights  
+## Results & Insights  
 - Discovered significant causal effects between **Age**, **Calcium intake**, and **Bone Density Score (BMD)**.  
 - Lifestyle variables such as **Exercise frequency** and **Dietary habits** showed measurable indirect influence.  
 - The estimated **Average Treatment Effect (ATE)** supports the hypothesis that calcium and activity level have protective causal effects against bone loss.  
@@ -44,7 +44,7 @@ Preprocessing included missing-value handling, outlier detection, normalization,
 
 ---
 
-## 🛠 Tools & Technologies  
+## Tools & Technologies  
 | Category | Tools / Libraries |
 |-----------|------------------|
 | Programming | Python |
